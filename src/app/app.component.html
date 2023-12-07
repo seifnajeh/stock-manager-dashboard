@@ -1,0 +1,50 @@
+<div class="column-layout group">
+  <igx-list class="list">
+    <igx-list-item [isHeader]="false" routerLink="/home">
+      <span igxListThumbnail>
+        <igx-avatar src="/assets/image_2023-12-07_093603769.png" size="medium" shape="circle" class="avatar"></igx-avatar>
+      </span>
+      <span igxListLineTitle>Jane Doe</span>
+      <span igxListLineSubTitle>Sales Manager</span>
+      <span igxListAction>
+        <igx-icon class="icon">
+          keyboard_arrow_down
+        </igx-icon>
+      </span>
+    </igx-list-item>
+    <igx-list-item [isHeader]="false" routerLink="/home">
+      <span igxListThumbnail>
+        <igx-avatar src="/assets/image_2023-12-07_095814536.png" class="avatar"></igx-avatar>
+      </span>
+      <span igxListLineTitle>Dashboard</span>
+    </igx-list-item>
+    <igx-list-item [isHeader]="false" routerLink="/products">
+      <span igxListThumbnail>
+        <igx-avatar src="/assets/image_2023-12-07_095921926.png" class="avatar"></igx-avatar>
+      </span>
+      <span igxListLineTitle>Products</span>
+    </igx-list-item>
+    <igx-list-item [isHeader]="false" routerLink="/orders">
+      <span igxListThumbnail>
+        <igx-avatar src="/assets/image_2023-12-07_100001583.png" class="avatar"></igx-avatar>
+      </span>
+      <span igxListLineTitle>Orders</span>
+    </igx-list-item>
+    <igx-list-item [isHeader]="false">
+      <span igxListThumbnail>
+        <igx-avatar src="/assets/image_2023-12-07_100120692.png" class="avatar"></igx-avatar>
+      </span>
+      <span igxListLineTitle>Customers</span>
+    </igx-list-item>
+    <igx-list-item [isHeader]="false">
+      <span igxListThumbnail>
+        <igx-avatar src="/assets/image_2023-12-07_100154429.png" class="avatar"></igx-avatar>
+      </span>
+      <span igxListLineTitle>Reports</span>
+    </igx-list-item>
+  </igx-list>
+  <div class="column-layout group_1"></div>
+</div>
+<div class="view-container">
+  <router-outlet></router-outlet>
+</div>
